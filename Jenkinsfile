@@ -8,6 +8,7 @@ pipeline{
       steps{
           echo "maven build"
       }
+    } 
     stage("sonar Analysis"){
       when{
         branch 'feature'
